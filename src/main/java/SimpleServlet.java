@@ -19,6 +19,7 @@ public class SimpleServlet extends HttpServlet {
 	      resp.setContentType("text/plain");
 	      resp.getWriter().write("Hello World! Maven Web Project Example.");
 	      resp.getWriter().write("This is so cool and amazing experience");
+	      resp.getWriter().write("I learned this, so amazing!!!");
 	   }
 
 }
